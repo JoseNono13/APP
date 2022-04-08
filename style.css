@@ -1,0 +1,48 @@
+.wrapper
+{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(70px, auto);
+}
+
+.img
+{
+    grid-column: 2 / 3;
+    grid-row: 1;
+}
+
+.img img
+{
+    width: 400px;
+}
+
+.title
+{
+    grid-column: 2 / 3;
+    grid-row: 2;
+    color: #fff;
+}
+
+.date
+{
+    grid-column: 2 / 3;
+    grid-row: 3;
+    color: #fff;
+}
+
+.text
+{
+    grid-column: 2 / 3;
+    grid-row: 4;
+    color: #fff;
+}
+
+.navigation
+{
+    grid-column: 2 / 3;
+    grid-row: 2;
+    position: fixed;
+    bottom: 0;
+    justify-content: center;
+}
